@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: ff335dcbe58bece4c8afc9d0dd6d36e6, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 133347283e115d147a5fcce7f47a538f, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.33220643, g: 0.36271724, b: 0.46474224, a: 1}
+  m_IndirectSpecularColor: {r: 0.38808215, g: 0.727803, b: 0.732499, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -500,6 +500,37 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!1 &1124144713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1124144714}
+  m_Layer: 0
+  m_Name: Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1124144714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124144713}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -31.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1787983409
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,7 +743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawns:
-  - {fileID: 3480278762663400089}
+  - {fileID: 1124144714}
   spawnOrder: 2
   spawnOrientation: 0
   ReferenceCamera: {fileID: 1069902874}
@@ -729,7 +760,7 @@ MonoBehaviour:
   contentGore: 0
   contentOther: 0
   releasePublic: 0
-  unityVersion: 2019.4.31f1
+  unityVersion: 2022.3.6f1
   udonProducts: []
   Name: 
   NSFW: 0
@@ -739,9 +770,7 @@ MonoBehaviour:
   useAssignedLayers: 0
   DynamicPrefabs: []
   DynamicMaterials:
-  - {fileID: 2100000, guid: 5aece7b0118c28745a2a364b6be59082, type: 2}
-  - {fileID: 2100000, guid: 7a0ecf3d634466543a3348e8ba985017, type: 2}
-  - {fileID: 2100000, guid: d6f357afe323b2b4da5746dd97716e8e, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 2100000, guid: 4714d0a3b55627044ae5ffc794fa2318, type: 2}
   LightMapsNear: []
   LightMapsFar: []
@@ -796,183 +825,6 @@ MonoBehaviour:
   RenderReflectionIntensity: 0
   RenderSkybox: {fileID: 0}
   NetworkIDs:
-  - gameObject: {fileID: 0}
-    ID: 10
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 11
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 12
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 13
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 14
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 15
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 16
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 17
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 18
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 19
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 20
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 21
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 22
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 23
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 24
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 25
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 26
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 27
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 28
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 29
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 30
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 31
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 32
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 33
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 34
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 35
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 36
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 37
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 38
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 39
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 40
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 41
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 42
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 43
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 44
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 45
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 46
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 47
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 48
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 49
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 50
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 51
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 52
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 53
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 54
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 55
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 56
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 57
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 58
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 59
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 60
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 61
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 62
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 63
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 64
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 65
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 66
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 67
-    SerializedTypeNames: []
-  - gameObject: {fileID: 0}
-    ID: 68
-    SerializedTypeNames: []
   - gameObject: {fileID: 3480278762663670689}
     ID: 69
     SerializedTypeNames: []
@@ -1095,3 +947,4 @@ SceneRoots:
   - {fileID: 358170790}
   - {fileID: 228628360}
   - {fileID: 248664278}
+  - {fileID: 1124144714}
