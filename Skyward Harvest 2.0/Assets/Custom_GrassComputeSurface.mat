@@ -27,11 +27,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _BlendFloor: 1
-    - _Edge: 1
-    - _Fade: 1.92
+    - _Edge: 0.221
+    - _Fade: 4.36
     - _Glossiness: 0.538
     - _Metallic: 0
-    - _Stretch: 10
+    - _Stretch: 1.02
     m_Colors:
-    - _AmbientAdjustmentColor: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
+    - _AmbientAdjustmentColor: {r: 0.34100214, g: 0.745283, b: 0.67480403, a: 1}
   m_BuildTextureStacks: []
