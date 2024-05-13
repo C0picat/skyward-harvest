@@ -115,7 +115,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7739733656274530627}
-  - component: {fileID: -1773034674178996576}
   m_Layer: 0
   m_Name: Temple_01
   m_TagString: Untagged
@@ -144,28 +143,6 @@ Transform:
   - {fileID: 3526430172938142175}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &-1773034674178996576
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2144489071987912740}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &2900045539027853230
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,6 +154,7 @@ GameObject:
   - component: {fileID: 5389957655508765128}
   - component: {fileID: 7084251249202292849}
   - component: {fileID: 432177460508282722}
+  - component: {fileID: 6468511675377989297}
   m_Layer: 0
   m_Name: Japanese_Shrine_Cylinder.006
   m_TagString: Untagged
@@ -255,6 +233,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6468511675377989297
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2900045539027853230}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 474197706321613446, guid: cfef40b91b547534f94d5d6e1e369b01, type: 3}
 --- !u!1 &3256544158630077983
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,6 +266,7 @@ GameObject:
   - component: {fileID: 8376053005551373294}
   - component: {fileID: 3361646165777930421}
   - component: {fileID: 1884153919359340624}
+  - component: {fileID: 2489588637859226132}
   m_Layer: 0
   m_Name: Japanese_Shrine_Cylinder.008
   m_TagString: Untagged
@@ -339,6 +340,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2489588637859226132
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3256544158630077983}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2944262258165902484, guid: cfef40b91b547534f94d5d6e1e369b01, type: 3}
 --- !u!1 &4517528598817419447
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,6 +730,7 @@ GameObject:
   - component: {fileID: 1548490785001854110}
   - component: {fileID: 7394143876137886189}
   - component: {fileID: 871318594319518237}
+  - component: {fileID: 2315762821007580232}
   m_Layer: 0
   m_Name: Japanese_Shrine_Cylinder.005
   m_TagString: Untagged
@@ -780,6 +804,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2315762821007580232
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5413588664538433332}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7042989978537965593, guid: cfef40b91b547534f94d5d6e1e369b01, type: 3}
 --- !u!1 &5654492091506437657
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,6 +1049,7 @@ GameObject:
   - component: {fileID: 2154048029889131769}
   - component: {fileID: 2541154793323188667}
   - component: {fileID: 2245489201094633384}
+  - component: {fileID: 6941827641542771652}
   m_Layer: 0
   m_Name: Japanese_Shrine_Cylinder.009
   m_TagString: Untagged
@@ -1076,6 +1123,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6941827641542771652
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5806868307559953314}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4124020868704289720, guid: cfef40b91b547534f94d5d6e1e369b01, type: 3}
 --- !u!1 &6774043757070688347
 GameObject:
   m_ObjectHideFlags: 0
@@ -1299,6 +1368,7 @@ GameObject:
   - component: {fileID: 7042410879730627839}
   - component: {fileID: 9097744383061455782}
   - component: {fileID: 4427804012579976279}
+  - component: {fileID: 8514360138440962793}
   m_Layer: 0
   m_Name: Japanese_Shrine_Cylinder.004
   m_TagString: Untagged
@@ -1372,3 +1442,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8514360138440962793
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7900006079063896812}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5819998003265066578, guid: cfef40b91b547534f94d5d6e1e369b01, type: 3}
