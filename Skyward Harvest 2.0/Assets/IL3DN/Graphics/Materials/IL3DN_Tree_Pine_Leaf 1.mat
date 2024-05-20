@@ -24,7 +24,7 @@ Material:
   - _FLOAT1_ON
   - _SHOWBACKFACES_ON
   - _SHOWFRONTFACES_ON
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -66,8 +66,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Illum:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+        m_Texture: {fileID: 10305, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -97,26 +101,44 @@ Material:
     m_Ints: []
     m_Floats:
     - LeavesAlphaCutoff: 0.5
+    - _AO: 2.4
     - _AlphaCutoff: 0.5
+    - _BaseLight: 0.35
     - _Bend: 1
     - _BendStrenght: 0.5
+    - _BlendOp: 0
     - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
     - _Cull: 0
     - _CullBackFaces: 1
     - _CullFrontFaces: 1
-    - _Cutoff: 0.5
+    - _Cutoff: 0.737
     - _DetailNormalMapScale: 1
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0
     - _DstBlend: 0
+    - _EmissionEnabled: 0
+    - _FlipbookMode: 0
     - _Float0: 2.61
     - _Float1: 1
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
+    - _LightingEnabled: 1
     - _Metallic: 0
     - _Mode: 0
+    - _Occlusion: 7.5
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _ShadowStrength: 0.5
+    - _ShakeBending: 1
+    - _ShakeDisplacement: 1
+    - _ShakeTime: 0.859
+    - _ShakeWindspeed: 1
     - _Shininess: 0.15
     - _ShowBackFaces: 1
     - _ShowFrontFaces: 1
@@ -125,6 +147,9 @@ Material:
     - _SnowSize: 1
     - _SnowSizeFloat: 2.5
     - _Snowsize: 1.59
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
     - _SpecularHighlights: 1
     - _SquashAmount: 1
     - _SrcBlend: 1
@@ -139,14 +164,18 @@ Material:
     - _ZWrite: 1
     - __dirty: 1
     m_Colors:
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 0.4481662, g: 1, b: 0.3537736, a: 1}
     - _Color0: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _HueVariation: {r: 1, g: 0.8997179, b: 0.740566, a: 1}
     - _Pivot: {r: 1, g: 1, b: 0, a: 0}
+    - _Scale: {r: 1, g: 1, b: 1, a: 1}
     - _ShakePivot: {r: 0.75, g: 0, b: 0, a: 0}
     - _Snow: {r: 1, g: 1, b: 1, a: 0}
     - _SnowColor: {r: 1, g: 1, b: 1, a: 0}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _TranslucencyColor: {r: 0.72321427, g: 1, b: 0, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
