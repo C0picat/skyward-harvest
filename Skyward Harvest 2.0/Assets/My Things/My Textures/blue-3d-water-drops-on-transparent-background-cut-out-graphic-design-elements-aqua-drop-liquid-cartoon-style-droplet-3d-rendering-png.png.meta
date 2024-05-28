@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a3a4d413d629ceb4abacc8b60b9beecf
+guid: 621b49e3961c58340be1741390aefaae
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,7 +44,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
-  spriteExtrude: 32
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -121,18 +121,84 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: blue-3d-water-drops-on-transparent-background-cut-out-graphic-design-elements-aqua-drop-liquid-cartoon-style-droplet-3d-rendering-png_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 58
+        width: 511
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a9254b47464364ebf3e432b178d732
+      internalID: 1280925812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-3d-water-drops-on-transparent-background-cut-out-graphic-design-elements-aqua-drop-liquid-cartoon-style-droplet-3d-rendering-png_1
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 55
+        width: 512
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44467c87de4b8646ba848dd24af7d7f
+      internalID: -230749127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-3d-water-drops-on-transparent-background-cut-out-graphic-design-elements-aqua-drop-liquid-cartoon-style-droplet-3d-rendering-png_2
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 58
+        width: 520
+        height: 1027
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db77a440b9bc214ebc2f8b1db8f7812
+      internalID: 1709281662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 47efcd23a698dee429121ac051c363ad
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      blue-3d-water-drops-on-transparent-background-cut-out-graphic-design-elements-aqua-drop-liquid-cartoon-style-droplet-3d-rendering-png_0: 1280925812
+      blue-3d-water-drops-on-transparent-background-cut-out-graphic-design-elements-aqua-drop-liquid-cartoon-style-droplet-3d-rendering-png_1: -230749127
+      blue-3d-water-drops-on-transparent-background-cut-out-graphic-design-elements-aqua-drop-liquid-cartoon-style-droplet-3d-rendering-png_2: 1709281662
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

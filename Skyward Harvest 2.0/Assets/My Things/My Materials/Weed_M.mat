@@ -7,15 +7,25 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CW2 Example Refracting
-  m_Shader: {fileID: 4800000, guid: 700b6993d0919a54789097de1c0c3ed4, type: 3}
+  m_Name: Weed_M
+  m_Shader: {fileID: 4800000, guid: f437afc0dfb00a64680aee639387f5b4, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _WIGGLE_ON
+  - _WIND_ON
   m_InvalidKeywords:
-  - _STATICHIGHLIGHTS_ON
+  - EFFECT_HUE_VARIATION
+  - GEOM_TYPE_LEAF
+  - _BEND_ON
+  - _CULLBACKFACES_ON
+  - _CULLFRONTFACES_ON
+  - _FLOAT0_ON
+  - _FLOAT1_ON
+  - _SHOWBACKFACES_ON
+  - _SHOWFRONTFACES_ON
   m_LightmapFlags: 0
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -24,6 +34,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - NoiseTextureFloat:
+        m_Texture: {fileID: 2800000, guid: e5055e0d246bd1047bdb28057a93753c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -44,12 +58,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Foam:
-        m_Texture: {fileID: 2800000, guid: f28423396372f574b88e3b41854652e8, type: 3}
-        m_Scale: {x: 0.7, y: 0.7}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: e6fade88bd8af71429ecdcf0debc0285, type: 3}
+        m_Texture: {fileID: 10305, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -64,41 +74,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Wave:
-        m_Texture: {fileID: 2800000, guid: dd4d69e37766cc040aca5446b7d11e7c, type: 3}
-        m_Scale: {x: 0.1, y: 0.1}
-        m_Offset: {x: 0, y: 0}
-    - _Wave2:
-        m_Texture: {fileID: 2800000, guid: e6fade88bd8af71429ecdcf0debc0285, type: 3}
-        m_Scale: {x: 0.06, y: 0.06}
-        m_Offset: {x: 0, y: 0}
-    - __Texcoord:
+    - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AlphaCutoff: 0.5
     - _BumpScale: 1
-    - _CullMode: 2
-    - _Cutoff: 0.5
-    - _DepthDensity: 0.258
-    - _DepthDensityVertical: 0
-    - _DepthFar: 100
-    - _DepthMultiply: 0
-    - _DepthNear: -150.9
+    - _Cutoff: 0.737
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _FoamDensity: 1.61
-    - _FoamDistortion: 1
-    - _FoamMax: 0.59
-    - _FoamMin: 0.78
-    - _FoamScrollSpeed: 4
     - _GlossMapScale: 1
-    - _Glossiness: 1
+    - _Glossiness: 0
     - _GlossyReflections: 1
-    - _IgnoreDepthBuffer: 0
-    - _IgnoreUVs: 1
-    - _IgnoreVertexColour: 0
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -106,25 +95,14 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _TintMultiply: 1
     - _UVSec: 0
-    - _WaterFogDensity: 0.15
-    - _Wave2ScrollSpeed: 0.01
-    - _Wave2ScrollX: 0.343
-    - _Wave2ScrollY: 0
-    - _Wave2Strength: 0.1
-    - _WaveReflectionDistortion: 0.25
-    - _WaveScrollSpeed: 0.11
-    - _WaveScrollX: 0.223
-    - _WaveScrollY: 0.52
-    - _WaveStrength: -0.194
+    - _Wiggle: 1
+    - _WiggleStrenght: 0
+    - _Wind: 1
+    - _WindStrenght: 0.12
     - _ZWrite: 1
-    - _foamMax: 0
-    - _foamMin: 1
+    - __dirty: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 0}
-    - _DepthColour: {r: 1, g: 1, b: 1, a: 0.39607844}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FoamColour: {r: 1, g: 1, b: 1, a: 1}
-    - _Tint: {r: 0.88464403, g: 0.9528302, b: 0.51686543, a: 0.25490198}
+    - _Color: {r: 1, g: 0.9932238, b: 0.3254717, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
