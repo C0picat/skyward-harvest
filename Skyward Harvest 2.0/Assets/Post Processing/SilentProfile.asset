@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 556797029e73b2347956b6579e77e05b, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   enabled:
     overrideState: 1
     value: 1
   focusDistance:
     overrideState: 1
-    value: 3.02
+    value: 3.7
   aperture:
     overrideState: 0
     value: 5.5
@@ -95,6 +95,8 @@ MonoBehaviour:
   - {fileID: 114254744475804696}
   - {fileID: -8197550630226420143}
   - {fileID: -5680008150606723628}
+  - {fileID: 1865135250084482894}
+  - {fileID: 1731016166633963175}
 --- !u!114 &114254744475804696
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1490,3 +1492,57 @@ MonoBehaviour:
       - 0.5
       - 0.5
       - 0.5
+--- !u!114 &1731016166633963175
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6050e2d5de785ce4d931e4dbdbf2d755, type: 3}
+  m_Name: ChromaticAberration
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  spectralLut:
+    overrideState: 1
+    value: {fileID: 0}
+    defaultState: 1
+  intensity:
+    overrideState: 1
+    value: 0.106
+  fastMode:
+    overrideState: 0
+    value: 0
+--- !u!114 &1865135250084482894
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65e486e4de6e5448a8fbb43dc8756a0, type: 3}
+  m_Name: Grain
+  m_EditorClassIdentifier: 
+  active: 0
+  enabled:
+    overrideState: 1
+    value: 1
+  colored:
+    overrideState: 1
+    value: 1
+  intensity:
+    overrideState: 1
+    value: 0.256
+  size:
+    overrideState: 1
+    value: 0.82
+  lumContrib:
+    overrideState: 0
+    value: 0.8

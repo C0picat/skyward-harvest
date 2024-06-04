@@ -99,7 +99,7 @@ Material:
     - _Wiggle: 1
     - _WiggleStrenght: 0
     - _Wind: 1
-    - _WindStrenght: 0.12
+    - _WindStrenght: 0.3
     - _ZWrite: 1
     - __dirty: 1
     m_Colors:
